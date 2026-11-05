@@ -1,0 +1,134 @@
+{
+  "time_utc": "2026-11-05T14:11:22.895431+00:00",
+  "gpu_before": "0, 0, 0\n1, 0, 0\n2, 0, 0\n",
+  "removed": [
+    {
+      "name": "cuda.shm.0.1107b.1",
+      "producer_pid": 69755,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-1234/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.1107c.1",
+      "producer_pid": 69756,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-1234/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.1107e.1",
+      "producer_pid": 69758,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-1234/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.16ae8.1",
+      "producer_pid": 92904,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-1235/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.16ae9.1",
+      "producer_pid": 92905,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-1235/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.16aeb.1",
+      "producer_pid": 92907,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-1235/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.19039.1",
+      "producer_pid": 102457,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-1236/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.1906f.1",
+      "producer_pid": 102511,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-1236/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.190a6.1",
+      "producer_pid": 102566,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-1236/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.1d018.1",
+      "producer_pid": 118808,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-resident-1234/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.1d04e.1",
+      "producer_pid": 118862,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-resident-1234/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.1d09b.1",
+      "producer_pid": 118939,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-resident-1234/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.1f1c5.1",
+      "producer_pid": 127429,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-resident-1235/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.1f1fb.1",
+      "producer_pid": 127483,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-resident-1235/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.1f232.1",
+      "producer_pid": 127538,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-resident-1235/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.213c0.1",
+      "producer_pid": 136128,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-resident-1236/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.213f6.1",
+      "producer_pid": 136182,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-resident-1236/training.log",
+      "producer_dead": true
+    },
+    {
+      "name": "cuda.shm.0.21445.1",
+      "producer_pid": 136261,
+      "bytes": 81920,
+      "source_log": "/root/autodl-tmp/rlinf-searchr1-single/benchmark-runs/collocated-resident-1236/training.log",
+      "producer_dead": true
+    }
+  ],
+  "untouched": [],
+  "remaining": []
+}

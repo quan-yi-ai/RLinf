@@ -1,0 +1,82 @@
+{
+  "source_commit": "370bdaa76d6873dbbce6389bc6830814a4ef5535",
+  "exit_code": 0,
+  "dummy_mode": false,
+  "retrieval_backend": "BM25 CPU",
+  "corpus_paragraphs": 640,
+  "functional_fixture_only": true,
+  "heldout_accuracy_claim": false,
+  "steps": 3,
+  "actor_dp": 2,
+  "rollout_gpus": 1,
+  "trajectory_count": 48,
+  "reward_counts": {
+    "0.0": 40,
+    "1.0": 8
+  },
+  "real_http_queries": 39,
+  "unique_returned_document_ids": 50,
+  "multi_turn_trajectories": 36,
+  "trajectories_with_retrieved_evidence_in_followup": 35,
+  "tool_spans_masked": 36,
+  "retrieved_tool_tokens_excluded_from_loss": 6012,
+  "gradient_norms_by_rank": {
+    "0": [
+      2.0050780679244586,
+      3.9946868896006436,
+      1.9388488258344685
+    ],
+    "1": [
+      2.0050780679244586,
+      3.9946868896006436,
+      1.9388488258344685
+    ]
+  },
+  "valid_response_tokens_per_update": [
+    3131,
+    2187,
+    2338
+  ],
+  "http_response_token_lengths": [
+    177,
+    185,
+    177,
+    181,
+    147,
+    200,
+    208,
+    177,
+    147,
+    166,
+    178,
+    185,
+    205,
+    100,
+    162,
+    195,
+    162,
+    120,
+    166,
+    195,
+    166,
+    164,
+    100,
+    204,
+    152,
+    183,
+    204,
+    144,
+    184,
+    193,
+    178,
+    168,
+    176,
+    188,
+    178,
+    155,
+    193,
+    16,
+    177
+  ],
+  "unconsumed_request_note": "HTTP calls can exceed continued trajectories when the existing turn/token budget ends the agent loop."
+}

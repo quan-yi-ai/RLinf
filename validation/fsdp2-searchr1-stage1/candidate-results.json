@@ -1,0 +1,1823 @@
+{
+  "mode": "candidate",
+  "actor_rank": 0,
+  "actor_dp": 2,
+  "initial_full_model_sha256": "b8335fbf18d4e139a64f33ba5ef161f04a73aa5b3b5ac88b1a854ee96781f5ba",
+  "parameters_checked": 338,
+  "parameter_names": [
+    "model.embed_tokens.weight",
+    "model.layers.0.self_attn.q_proj.weight",
+    "model.layers.0.self_attn.q_proj.bias",
+    "model.layers.0.self_attn.k_proj.weight",
+    "model.layers.0.self_attn.k_proj.bias",
+    "model.layers.0.self_attn.v_proj.weight",
+    "model.layers.0.self_attn.v_proj.bias",
+    "model.layers.0.self_attn.o_proj.weight",
+    "model.layers.0.mlp.gate_proj.weight",
+    "model.layers.0.mlp.up_proj.weight",
+    "model.layers.0.mlp.down_proj.weight",
+    "model.layers.0.input_layernorm.weight",
+    "model.layers.0.post_attention_layernorm.weight",
+    "model.layers.1.self_attn.q_proj.weight",
+    "model.layers.1.self_attn.q_proj.bias",
+    "model.layers.1.self_attn.k_proj.weight",
+    "model.layers.1.self_attn.k_proj.bias",
+    "model.layers.1.self_attn.v_proj.weight",
+    "model.layers.1.self_attn.v_proj.bias",
+    "model.layers.1.self_attn.o_proj.weight",
+    "model.layers.1.mlp.gate_proj.weight",
+    "model.layers.1.mlp.up_proj.weight",
+    "model.layers.1.mlp.down_proj.weight",
+    "model.layers.1.input_layernorm.weight",
+    "model.layers.1.post_attention_layernorm.weight",
+    "model.layers.2.self_attn.q_proj.weight",
+    "model.layers.2.self_attn.q_proj.bias",
+    "model.layers.2.self_attn.k_proj.weight",
+    "model.layers.2.self_attn.k_proj.bias",
+    "model.layers.2.self_attn.v_proj.weight",
+    "model.layers.2.self_attn.v_proj.bias",
+    "model.layers.2.self_attn.o_proj.weight",
+    "model.layers.2.mlp.gate_proj.weight",
+    "model.layers.2.mlp.up_proj.weight",
+    "model.layers.2.mlp.down_proj.weight",
+    "model.layers.2.input_layernorm.weight",
+    "model.layers.2.post_attention_layernorm.weight",
+    "model.layers.3.self_attn.q_proj.weight",
+    "model.layers.3.self_attn.q_proj.bias",
+    "model.layers.3.self_attn.k_proj.weight",
+    "model.layers.3.self_attn.k_proj.bias",
+    "model.layers.3.self_attn.v_proj.weight",
+    "model.layers.3.self_attn.v_proj.bias",
+    "model.layers.3.self_attn.o_proj.weight",
+    "model.layers.3.mlp.gate_proj.weight",
+    "model.layers.3.mlp.up_proj.weight",
+    "model.layers.3.mlp.down_proj.weight",
+    "model.layers.3.input_layernorm.weight",
+    "model.layers.3.post_attention_layernorm.weight",
+    "model.layers.4.self_attn.q_proj.weight",
+    "model.layers.4.self_attn.q_proj.bias",
+    "model.layers.4.self_attn.k_proj.weight",
+    "model.layers.4.self_attn.k_proj.bias",
+    "model.layers.4.self_attn.v_proj.weight",
+    "model.layers.4.self_attn.v_proj.bias",
+    "model.layers.4.self_attn.o_proj.weight",
+    "model.layers.4.mlp.gate_proj.weight",
+    "model.layers.4.mlp.up_proj.weight",
+    "model.layers.4.mlp.down_proj.weight",
+    "model.layers.4.input_layernorm.weight",
+    "model.layers.4.post_attention_layernorm.weight",
+    "model.layers.5.self_attn.q_proj.weight",
+    "model.layers.5.self_attn.q_proj.bias",
+    "model.layers.5.self_attn.k_proj.weight",
+    "model.layers.5.self_attn.k_proj.bias",
+    "model.layers.5.self_attn.v_proj.weight",
+    "model.layers.5.self_attn.v_proj.bias",
+    "model.layers.5.self_attn.o_proj.weight",
+    "model.layers.5.mlp.gate_proj.weight",
+    "model.layers.5.mlp.up_proj.weight",
+    "model.layers.5.mlp.down_proj.weight",
+    "model.layers.5.input_layernorm.weight",
+    "model.layers.5.post_attention_layernorm.weight",
+    "model.layers.6.self_attn.q_proj.weight",
+    "model.layers.6.self_attn.q_proj.bias",
+    "model.layers.6.self_attn.k_proj.weight",
+    "model.layers.6.self_attn.k_proj.bias",
+    "model.layers.6.self_attn.v_proj.weight",
+    "model.layers.6.self_attn.v_proj.bias",
+    "model.layers.6.self_attn.o_proj.weight",
+    "model.layers.6.mlp.gate_proj.weight",
+    "model.layers.6.mlp.up_proj.weight",
+    "model.layers.6.mlp.down_proj.weight",
+    "model.layers.6.input_layernorm.weight",
+    "model.layers.6.post_attention_layernorm.weight",
+    "model.layers.7.self_attn.q_proj.weight",
+    "model.layers.7.self_attn.q_proj.bias",
+    "model.layers.7.self_attn.k_proj.weight",
+    "model.layers.7.self_attn.k_proj.bias",
+    "model.layers.7.self_attn.v_proj.weight",
+    "model.layers.7.self_attn.v_proj.bias",
+    "model.layers.7.self_attn.o_proj.weight",
+    "model.layers.7.mlp.gate_proj.weight",
+    "model.layers.7.mlp.up_proj.weight",
+    "model.layers.7.mlp.down_proj.weight",
+    "model.layers.7.input_layernorm.weight",
+    "model.layers.7.post_attention_layernorm.weight",
+    "model.layers.8.self_attn.q_proj.weight",
+    "model.layers.8.self_attn.q_proj.bias",
+    "model.layers.8.self_attn.k_proj.weight",
+    "model.layers.8.self_attn.k_proj.bias",
+    "model.layers.8.self_attn.v_proj.weight",
+    "model.layers.8.self_attn.v_proj.bias",
+    "model.layers.8.self_attn.o_proj.weight",
+    "model.layers.8.mlp.gate_proj.weight",
+    "model.layers.8.mlp.up_proj.weight",
+    "model.layers.8.mlp.down_proj.weight",
+    "model.layers.8.input_layernorm.weight",
+    "model.layers.8.post_attention_layernorm.weight",
+    "model.layers.9.self_attn.q_proj.weight",
+    "model.layers.9.self_attn.q_proj.bias",
+    "model.layers.9.self_attn.k_proj.weight",
+    "model.layers.9.self_attn.k_proj.bias",
+    "model.layers.9.self_attn.v_proj.weight",
+    "model.layers.9.self_attn.v_proj.bias",
+    "model.layers.9.self_attn.o_proj.weight",
+    "model.layers.9.mlp.gate_proj.weight",
+    "model.layers.9.mlp.up_proj.weight",
+    "model.layers.9.mlp.down_proj.weight",
+    "model.layers.9.input_layernorm.weight",
+    "model.layers.9.post_attention_layernorm.weight",
+    "model.layers.10.self_attn.q_proj.weight",
+    "model.layers.10.self_attn.q_proj.bias",
+    "model.layers.10.self_attn.k_proj.weight",
+    "model.layers.10.self_attn.k_proj.bias",
+    "model.layers.10.self_attn.v_proj.weight",
+    "model.layers.10.self_attn.v_proj.bias",
+    "model.layers.10.self_attn.o_proj.weight",
+    "model.layers.10.mlp.gate_proj.weight",
+    "model.layers.10.mlp.up_proj.weight",
+    "model.layers.10.mlp.down_proj.weight",
+    "model.layers.10.input_layernorm.weight",
+    "model.layers.10.post_attention_layernorm.weight",
+    "model.layers.11.self_attn.q_proj.weight",
+    "model.layers.11.self_attn.q_proj.bias",
+    "model.layers.11.self_attn.k_proj.weight",
+    "model.layers.11.self_attn.k_proj.bias",
+    "model.layers.11.self_attn.v_proj.weight",
+    "model.layers.11.self_attn.v_proj.bias",
+    "model.layers.11.self_attn.o_proj.weight",
+    "model.layers.11.mlp.gate_proj.weight",
+    "model.layers.11.mlp.up_proj.weight",
+    "model.layers.11.mlp.down_proj.weight",
+    "model.layers.11.input_layernorm.weight",
+    "model.layers.11.post_attention_layernorm.weight",
+    "model.layers.12.self_attn.q_proj.weight",
+    "model.layers.12.self_attn.q_proj.bias",
+    "model.layers.12.self_attn.k_proj.weight",
+    "model.layers.12.self_attn.k_proj.bias",
+    "model.layers.12.self_attn.v_proj.weight",
+    "model.layers.12.self_attn.v_proj.bias",
+    "model.layers.12.self_attn.o_proj.weight",
+    "model.layers.12.mlp.gate_proj.weight",
+    "model.layers.12.mlp.up_proj.weight",
+    "model.layers.12.mlp.down_proj.weight",
+    "model.layers.12.input_layernorm.weight",
+    "model.layers.12.post_attention_layernorm.weight",
+    "model.layers.13.self_attn.q_proj.weight",
+    "model.layers.13.self_attn.q_proj.bias",
+    "model.layers.13.self_attn.k_proj.weight",
+    "model.layers.13.self_attn.k_proj.bias",
+    "model.layers.13.self_attn.v_proj.weight",
+    "model.layers.13.self_attn.v_proj.bias",
+    "model.layers.13.self_attn.o_proj.weight",
+    "model.layers.13.mlp.gate_proj.weight",
+    "model.layers.13.mlp.up_proj.weight",
+    "model.layers.13.mlp.down_proj.weight",
+    "model.layers.13.input_layernorm.weight",
+    "model.layers.13.post_attention_layernorm.weight",
+    "model.layers.14.self_attn.q_proj.weight",
+    "model.layers.14.self_attn.q_proj.bias",
+    "model.layers.14.self_attn.k_proj.weight",
+    "model.layers.14.self_attn.k_proj.bias",
+    "model.layers.14.self_attn.v_proj.weight",
+    "model.layers.14.self_attn.v_proj.bias",
+    "model.layers.14.self_attn.o_proj.weight",
+    "model.layers.14.mlp.gate_proj.weight",
+    "model.layers.14.mlp.up_proj.weight",
+    "model.layers.14.mlp.down_proj.weight",
+    "model.layers.14.input_layernorm.weight",
+    "model.layers.14.post_attention_layernorm.weight",
+    "model.layers.15.self_attn.q_proj.weight",
+    "model.layers.15.self_attn.q_proj.bias",
+    "model.layers.15.self_attn.k_proj.weight",
+    "model.layers.15.self_attn.k_proj.bias",
+    "model.layers.15.self_attn.v_proj.weight",
+    "model.layers.15.self_attn.v_proj.bias",
+    "model.layers.15.self_attn.o_proj.weight",
+    "model.layers.15.mlp.gate_proj.weight",
+    "model.layers.15.mlp.up_proj.weight",
+    "model.layers.15.mlp.down_proj.weight",
+    "model.layers.15.input_layernorm.weight",
+    "model.layers.15.post_attention_layernorm.weight",
+    "model.layers.16.self_attn.q_proj.weight",
+    "model.layers.16.self_attn.q_proj.bias",
+    "model.layers.16.self_attn.k_proj.weight",
+    "model.layers.16.self_attn.k_proj.bias",
+    "model.layers.16.self_attn.v_proj.weight",
+    "model.layers.16.self_attn.v_proj.bias",
+    "model.layers.16.self_attn.o_proj.weight",
+    "model.layers.16.mlp.gate_proj.weight",
+    "model.layers.16.mlp.up_proj.weight",
+    "model.layers.16.mlp.down_proj.weight",
+    "model.layers.16.input_layernorm.weight",
+    "model.layers.16.post_attention_layernorm.weight",
+    "model.layers.17.self_attn.q_proj.weight",
+    "model.layers.17.self_attn.q_proj.bias",
+    "model.layers.17.self_attn.k_proj.weight",
+    "model.layers.17.self_attn.k_proj.bias",
+    "model.layers.17.self_attn.v_proj.weight",
+    "model.layers.17.self_attn.v_proj.bias",
+    "model.layers.17.self_attn.o_proj.weight",
+    "model.layers.17.mlp.gate_proj.weight",
+    "model.layers.17.mlp.up_proj.weight",
+    "model.layers.17.mlp.down_proj.weight",
+    "model.layers.17.input_layernorm.weight",
+    "model.layers.17.post_attention_layernorm.weight",
+    "model.layers.18.self_attn.q_proj.weight",
+    "model.layers.18.self_attn.q_proj.bias",
+    "model.layers.18.self_attn.k_proj.weight",
+    "model.layers.18.self_attn.k_proj.bias",
+    "model.layers.18.self_attn.v_proj.weight",
+    "model.layers.18.self_attn.v_proj.bias",
+    "model.layers.18.self_attn.o_proj.weight",
+    "model.layers.18.mlp.gate_proj.weight",
+    "model.layers.18.mlp.up_proj.weight",
+    "model.layers.18.mlp.down_proj.weight",
+    "model.layers.18.input_layernorm.weight",
+    "model.layers.18.post_attention_layernorm.weight",
+    "model.layers.19.self_attn.q_proj.weight",
+    "model.layers.19.self_attn.q_proj.bias",
+    "model.layers.19.self_attn.k_proj.weight",
+    "model.layers.19.self_attn.k_proj.bias",
+    "model.layers.19.self_attn.v_proj.weight",
+    "model.layers.19.self_attn.v_proj.bias",
+    "model.layers.19.self_attn.o_proj.weight",
+    "model.layers.19.mlp.gate_proj.weight",
+    "model.layers.19.mlp.up_proj.weight",
+    "model.layers.19.mlp.down_proj.weight",
+    "model.layers.19.input_layernorm.weight",
+    "model.layers.19.post_attention_layernorm.weight",
+    "model.layers.20.self_attn.q_proj.weight",
+    "model.layers.20.self_attn.q_proj.bias",
+    "model.layers.20.self_attn.k_proj.weight",
+    "model.layers.20.self_attn.k_proj.bias",
+    "model.layers.20.self_attn.v_proj.weight",
+    "model.layers.20.self_attn.v_proj.bias",
+    "model.layers.20.self_attn.o_proj.weight",
+    "model.layers.20.mlp.gate_proj.weight",
+    "model.layers.20.mlp.up_proj.weight",
+    "model.layers.20.mlp.down_proj.weight",
+    "model.layers.20.input_layernorm.weight",
+    "model.layers.20.post_attention_layernorm.weight",
+    "model.layers.21.self_attn.q_proj.weight",
+    "model.layers.21.self_attn.q_proj.bias",
+    "model.layers.21.self_attn.k_proj.weight",
+    "model.layers.21.self_attn.k_proj.bias",
+    "model.layers.21.self_attn.v_proj.weight",
+    "model.layers.21.self_attn.v_proj.bias",
+    "model.layers.21.self_attn.o_proj.weight",
+    "model.layers.21.mlp.gate_proj.weight",
+    "model.layers.21.mlp.up_proj.weight",
+    "model.layers.21.mlp.down_proj.weight",
+    "model.layers.21.input_layernorm.weight",
+    "model.layers.21.post_attention_layernorm.weight",
+    "model.layers.22.self_attn.q_proj.weight",
+    "model.layers.22.self_attn.q_proj.bias",
+    "model.layers.22.self_attn.k_proj.weight",
+    "model.layers.22.self_attn.k_proj.bias",
+    "model.layers.22.self_attn.v_proj.weight",
+    "model.layers.22.self_attn.v_proj.bias",
+    "model.layers.22.self_attn.o_proj.weight",
+    "model.layers.22.mlp.gate_proj.weight",
+    "model.layers.22.mlp.up_proj.weight",
+    "model.layers.22.mlp.down_proj.weight",
+    "model.layers.22.input_layernorm.weight",
+    "model.layers.22.post_attention_layernorm.weight",
+    "model.layers.23.self_attn.q_proj.weight",
+    "model.layers.23.self_attn.q_proj.bias",
+    "model.layers.23.self_attn.k_proj.weight",
+    "model.layers.23.self_attn.k_proj.bias",
+    "model.layers.23.self_attn.v_proj.weight",
+    "model.layers.23.self_attn.v_proj.bias",
+    "model.layers.23.self_attn.o_proj.weight",
+    "model.layers.23.mlp.gate_proj.weight",
+    "model.layers.23.mlp.up_proj.weight",
+    "model.layers.23.mlp.down_proj.weight",
+    "model.layers.23.input_layernorm.weight",
+    "model.layers.23.post_attention_layernorm.weight",
+    "model.layers.24.self_attn.q_proj.weight",
+    "model.layers.24.self_attn.q_proj.bias",
+    "model.layers.24.self_attn.k_proj.weight",
+    "model.layers.24.self_attn.k_proj.bias",
+    "model.layers.24.self_attn.v_proj.weight",
+    "model.layers.24.self_attn.v_proj.bias",
+    "model.layers.24.self_attn.o_proj.weight",
+    "model.layers.24.mlp.gate_proj.weight",
+    "model.layers.24.mlp.up_proj.weight",
+    "model.layers.24.mlp.down_proj.weight",
+    "model.layers.24.input_layernorm.weight",
+    "model.layers.24.post_attention_layernorm.weight",
+    "model.layers.25.self_attn.q_proj.weight",
+    "model.layers.25.self_attn.q_proj.bias",
+    "model.layers.25.self_attn.k_proj.weight",
+    "model.layers.25.self_attn.k_proj.bias",
+    "model.layers.25.self_attn.v_proj.weight",
+    "model.layers.25.self_attn.v_proj.bias",
+    "model.layers.25.self_attn.o_proj.weight",
+    "model.layers.25.mlp.gate_proj.weight",
+    "model.layers.25.mlp.up_proj.weight",
+    "model.layers.25.mlp.down_proj.weight",
+    "model.layers.25.input_layernorm.weight",
+    "model.layers.25.post_attention_layernorm.weight",
+    "model.layers.26.self_attn.q_proj.weight",
+    "model.layers.26.self_attn.q_proj.bias",
+    "model.layers.26.self_attn.k_proj.weight",
+    "model.layers.26.self_attn.k_proj.bias",
+    "model.layers.26.self_attn.v_proj.weight",
+    "model.layers.26.self_attn.v_proj.bias",
+    "model.layers.26.self_attn.o_proj.weight",
+    "model.layers.26.mlp.gate_proj.weight",
+    "model.layers.26.mlp.up_proj.weight",
+    "model.layers.26.mlp.down_proj.weight",
+    "model.layers.26.input_layernorm.weight",
+    "model.layers.26.post_attention_layernorm.weight",
+    "model.layers.27.self_attn.q_proj.weight",
+    "model.layers.27.self_attn.q_proj.bias",
+    "model.layers.27.self_attn.k_proj.weight",
+    "model.layers.27.self_attn.k_proj.bias",
+    "model.layers.27.self_attn.v_proj.weight",
+    "model.layers.27.self_attn.v_proj.bias",
+    "model.layers.27.self_attn.o_proj.weight",
+    "model.layers.27.mlp.gate_proj.weight",
+    "model.layers.27.mlp.up_proj.weight",
+    "model.layers.27.mlp.down_proj.weight",
+    "model.layers.27.input_layernorm.weight",
+    "model.layers.27.post_attention_layernorm.weight",
+    "model.norm.weight"
+  ],
+  "logprob_max_abs_error": 0.0,
+  "max_abs_error": {
+    "gradient": 4.8271846026182175e-05,
+    "parameter": 2.384185791015625e-07
+  },
+  "bitwise_equal": {
+    "gradient": false,
+    "parameter": false
+  },
+  "tolerances_predeclared": {
+    "logprob": {
+      "atol": 2e-05,
+      "rtol": 1e-05
+    },
+    "gradient": {
+      "atol": 1e-07,
+      "rtol": 0.0001
+    },
+    "parameter": {
+      "atol": 1e-08,
+      "rtol": 1e-05
+    },
+    "metric": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  "rollout_metrics": {
+    "total_num_sequence": 16.0,
+    "valid_response_tokens": 1073.0,
+    "prompt_length": 93.0,
+    "response_length": 67.0625,
+    "total_length": 160.0625,
+    "max_prompt_length": 93,
+    "max_response_length": 256,
+    "max_total_length": 349,
+    "reward_scores_traj": 0.1875,
+    "reward_scores_turn": 0.1875,
+    "avg_turns_per_traj": 1.0,
+    "fraction_of_samples_properly_ended": 0.0,
+    "advantages_mean": 0.15457612648259117,
+    "advantages_max": 2.4748666286468506,
+    "advantages_min": -0.5400605201721191
+  },
+  "training_metrics": [
+    {
+      "actor/approx_kl": 2.7510293875820935e-05,
+      "actor/clip_fraction": 0.0,
+      "actor/clipped_ratio": 0.9999805092811584,
+      "actor/dual_cliped_ratio": 0.0,
+      "actor/entropy_loss": 0.0,
+      "actor/final_loss": -0.16839516162872314,
+      "actor/kl_loss": 0.0,
+      "actor/policy_loss": -0.16839516162872314,
+      "actor/policy_loss_abs": 0.8079755902290344,
+      "actor/ratio": 0.9999805092811584,
+      "actor/ratio_abs": 0.0014007135760039091,
+      "actor/grad_norm": 10.620578339484942,
+      "actor/lr": 1e-06
+    }
+  ],
+  "errors": [
+    {
+      "parameter": "model.embed_tokens.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 33 / 233373696 (0.0%)\nGreatest absolute difference: 1.2991949915885925e-07 at index (8382, 1424) (up to 1e-08 allowed)\nGreatest relative difference: 0.0054664285853505135 at index (31634, 393) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.embed_tokens.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 49119 / 233373696 (0.0%)\nGreatest absolute difference: 4.8271846026182175e-05 at index (369, 609) (up to 1e-07 allowed)\nGreatest relative difference: 327.9997863769531 at index (760, 1131) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.self_attn.q_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 31 / 2359296 (0.0%)\nGreatest absolute difference: 5.192123353481293e-08 at index (1468, 609) (up to 1e-08 allowed)\nGreatest relative difference: 0.001476287143304944 at index (1529, 609) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 14052 / 2359296 (0.6%)\nGreatest absolute difference: 4.598172381520271e-06 at index (1469, 609) (up to 1e-07 allowed)\nGreatest relative difference: 54.99996566772461 at index (1148, 45) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.self_attn.q_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 34 / 1536 (2.2%)\nGreatest absolute difference: 2.1548112272284925e-07 at index (703,) (up to 1e-07 allowed)\nGreatest relative difference: 0.13668982684612274 at index (1210,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 701 / 393216 (0.2%)\nGreatest absolute difference: 2.2975727915763855e-06 at index (135, 609) (up to 1e-07 allowed)\nGreatest relative difference: 0.08695580810308456 at index (241, 553) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.self_attn.v_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 393216 (0.0%)\nGreatest absolute difference: 2.491287887096405e-08 at index (117, 609) (up to 1e-08 allowed)\nGreatest relative difference: 0.0002804013201966882 at index (237, 469) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 40190 / 393216 (10.2%)\nGreatest absolute difference: 4.60352748632431e-06 at index (207, 609) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (31, 1380) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 81 / 256 (31.6%)\nGreatest absolute difference: 5.754409357905388e-07 at index (117,) (up to 1e-07 allowed)\nGreatest relative difference: 0.035714950412511826 at index (92,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.self_attn.o_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 6 / 2359296 (0.0%)\nGreatest absolute difference: 3.597233444452286e-08 at index (139, 226) (up to 1e-08 allowed)\nGreatest relative difference: 0.00032786797964945436 at index (610, 98) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 12813 / 2359296 (0.5%)\nGreatest absolute difference: 1.1505326256155968e-06 at index (1130, 738) (up to 1e-07 allowed)\nGreatest relative difference: 5.999996662139893 at index (915, 1247) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 279 / 13762560 (0.0%)\nGreatest absolute difference: 2.875749487429857e-07 at index (6906, 81) (up to 1e-07 allowed)\nGreatest relative difference: 0.010101710446178913 at index (8116, 1229) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 763 / 13762560 (0.0%)\nGreatest absolute difference: 5.744514055550098e-07 at index (8254, 553) (up to 1e-07 allowed)\nGreatest relative difference: 0.10869624465703964 at index (5806, 553) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.mlp.down_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 13762560 (0.0%)\nGreatest absolute difference: 1.772241375874728e-08 at index (1025, 4168) (up to 1e-08 allowed)\nGreatest relative difference: 0.0007760237203910947 at index (1025, 4168) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1619 / 13762560 (0.0%)\nGreatest absolute difference: 5.75091689825058e-07 at index (39, 960) (up to 1e-07 allowed)\nGreatest relative difference: 0.816666841506958 at index (1156, 4168) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 533 / 1536 (34.7%)\nGreatest absolute difference: 5.744223017245531e-07 at index (553,) (up to 1e-07 allowed)\nGreatest relative difference: 0.382979154586792 at index (398,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 60 / 1536 (3.9%)\nGreatest absolute difference: 5.75091689825058e-07 at index (1214,) (up to 1e-07 allowed)\nGreatest relative difference: 0.04651227593421936 at index (1251,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.1.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 78 / 2359296 (0.0%)\nGreatest absolute difference: 3.2327625376638025e-07 at index (126, 147) (up to 1e-07 allowed)\nGreatest relative difference: 2.9834680557250977 at index (116, 147) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.1.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 92 / 393216 (0.0%)\nGreatest absolute difference: 2.876331564038992e-07 at index (0, 147) (up to 1e-07 allowed)\nGreatest relative difference: 0.020832668989896774 at index (126, 147) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.1.self_attn.v_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 393216 (0.0%)\nGreatest absolute difference: 5.448237061500549e-08 at index (56, 553) (up to 1e-08 allowed)\nGreatest relative difference: 8.16693645901978e-05 at index (155, 1360) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.1.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2664 / 393216 (0.7%)\nGreatest absolute difference: 4.600733518600464e-06 at index (90, 147) (up to 1e-07 allowed)\nGreatest relative difference: 1.333333134651184 at index (106, 4) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.1.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 71 / 256 (27.7%)\nGreatest absolute difference: 5.747569957748055e-07 at index (96,) (up to 1e-07 allowed)\nGreatest relative difference: 1.333333134651184 at index (97,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.1.self_attn.o_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 3 / 2359296 (0.0%)\nGreatest absolute difference: 2.4389009922742844e-08 at index (1009, 90) (up to 1e-08 allowed)\nGreatest relative difference: 8.1077785580419e-05 at index (433, 346) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.1.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2966 / 2359296 (0.1%)\nGreatest absolute difference: 1.1506490409374237e-06 at index (175, 346) (up to 1e-07 allowed)\nGreatest relative difference: 0.6666655540466309 at index (1346, 474) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.1.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 5319 / 13762560 (0.0%)\nGreatest absolute difference: 2.3010652512311935e-06 at index (5732, 1173) (up to 1e-07 allowed)\nGreatest relative difference: 0.48888924717903137 at index (5167, 520) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.1.mlp.up_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 13762560 (0.0%)\nGreatest absolute difference: 8.242204785346985e-08 at index (1160, 1173) (up to 1e-08 allowed)\nGreatest relative difference: 0.00047357435687445104 at index (5512, 408) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.1.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 9274 / 13762560 (0.1%)\nGreatest absolute difference: 2.3010652512311935e-06 at index (6179, 940) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (4313, 408) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.1.mlp.down_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 7 / 13762560 (0.0%)\nGreatest absolute difference: 9.997165761888027e-08 at index (54, 5601) (up to 1e-08 allowed)\nGreatest relative difference: 0.00040600119973532856 at index (54, 5601) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.1.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2805 / 13762560 (0.0%)\nGreatest absolute difference: 4.60352748632431e-06 at index (352, 5601) (up to 1e-07 allowed)\nGreatest relative difference: 1.00709068775177 at index (260, 4875) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.1.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 24 / 1536 (1.6%)\nGreatest absolute difference: 2.876331564038992e-07 at index (121,) (up to 1e-07 allowed)\nGreatest relative difference: 0.01929190754890442 at index (1166,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.1.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 3 / 1536 (0.2%)\nGreatest absolute difference: 1.437729224562645e-07 at index (711,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009476348059251904 at index (969,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.2.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 339 / 2359296 (0.0%)\nGreatest absolute difference: 5.753245204687119e-07 at index (253, 1173) (up to 1e-07 allowed)\nGreatest relative difference: 2.9999988079071045 at index (1026, 1173) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.2.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 694 / 393216 (0.2%)\nGreatest absolute difference: 2.300017513334751e-06 at index (120, 1215) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (55, 1173) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.2.self_attn.v_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 393216 (0.0%)\nGreatest absolute difference: 2.435990609228611e-08 at index (145, 147) (up to 1e-08 allowed)\nGreatest relative difference: 0.00031758422846905887 at index (145, 147) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.2.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1855 / 393216 (0.5%)\nGreatest absolute difference: 4.602130502462387e-06 at index (99, 408) (up to 1e-07 allowed)\nGreatest relative difference: 0.5000003576278687 at index (233, 1283) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.2.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 59 / 256 (23.0%)\nGreatest absolute difference: 5.752081051468849e-07 at index (43,) (up to 1e-07 allowed)\nGreatest relative difference: 0.07142922282218933 at index (45,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.2.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 311 / 2359296 (0.0%)\nGreatest absolute difference: 2.877204678952694e-07 at index (520, 201) (up to 1e-07 allowed)\nGreatest relative difference: 0.01142929121851921 at index (1224, 201) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.2.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 3689 / 13762560 (0.0%)\nGreatest absolute difference: 2.3010652512311935e-06 at index (867, 520) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (8660, 1279) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.2.mlp.up_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 4 / 13762560 (0.0%)\nGreatest absolute difference: 1.3533281162381172e-08 at index (2369, 520) (up to 1e-08 allowed)\nGreatest relative difference: 0.00020518577366601676 at index (7477, 147) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.2.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 10456 / 13762560 (0.1%)\nGreatest absolute difference: 2.3012980818748474e-06 at index (1257, 1173) (up to 1e-07 allowed)\nGreatest relative difference: 1.0 at index (5030, 940) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.2.mlp.down_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 13 / 13762560 (0.0%)\nGreatest absolute difference: 3.3182004699483514e-08 at index (387, 3029) (up to 1e-08 allowed)\nGreatest relative difference: 0.0007060084026306868 at index (387, 3029) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.2.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 4676 / 13762560 (0.0%)\nGreatest absolute difference: 4.600733518600464e-06 at index (335, 2417) (up to 1e-07 allowed)\nGreatest relative difference: 1.0 at index (936, 5281) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.2.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 6 / 1536 (0.4%)\nGreatest absolute difference: 1.438602339476347e-07 at index (1421,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0017264045309275389 at index (222,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.2.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 4 / 1536 (0.3%)\nGreatest absolute difference: 1.4375837054103613e-07 at index (285,) (up to 1e-07 allowed)\nGreatest relative difference: 0.003345136996358633 at index (553,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.3.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 704 / 2359296 (0.0%)\nGreatest absolute difference: 1.1511147022247314e-06 at index (756, 1229) (up to 1e-07 allowed)\nGreatest relative difference: 0.14285629987716675 at index (287, 147) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.3.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 996 / 393216 (0.3%)\nGreatest absolute difference: 1.1504162102937698e-06 at index (10, 147) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (9, 408) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.3.self_attn.v_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 393216 (0.0%)\nGreatest absolute difference: 2.7939677238464355e-08 at index (204, 1173) (up to 1e-08 allowed)\nGreatest relative difference: 1.9479684851830825e-05 at index (204, 1173) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.3.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2364 / 393216 (0.6%)\nGreatest absolute difference: 4.601199179887772e-06 at index (196, 713) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (213, 147) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.3.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 56 / 256 (21.9%)\nGreatest absolute difference: 2.877204678952694e-07 at index (119,) (up to 1e-07 allowed)\nGreatest relative difference: 0.05000069737434387 at index (175,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.3.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 282 / 2359296 (0.0%)\nGreatest absolute difference: 2.87545844912529e-07 at index (256, 48) (up to 1e-07 allowed)\nGreatest relative difference: 0.008130747824907303 at index (184, 48) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.3.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2913 / 13762560 (0.0%)\nGreatest absolute difference: 2.2957101464271545e-06 at index (808, 713) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (197, 969) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.3.mlp.up_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 13762560 (0.0%)\nGreatest absolute difference: 2.2526364773511887e-08 at index (8236, 940) (up to 1e-08 allowed)\nGreatest relative difference: 7.98284963821061e-05 at index (8236, 940) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.3.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 8532 / 13762560 (0.1%)\nGreatest absolute difference: 2.296874299645424e-06 at index (4883, 940) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (1262, 1229) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.3.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1782 / 13762560 (0.0%)\nGreatest absolute difference: 1.1485535651445389e-06 at index (542, 4883) (up to 1e-07 allowed)\nGreatest relative difference: 9.66666030883789 at index (1229, 5749) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.3.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 5 / 1536 (0.3%)\nGreatest absolute difference: 1.4383113011717796e-07 at index (1229,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009711218881420791 at index (140,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.3.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 9 / 1536 (0.6%)\nGreatest absolute difference: 2.876331564038992e-07 at index (44,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0012955112615600228 at index (713,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.4.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 555 / 2359296 (0.0%)\nGreatest absolute difference: 5.755573511123657e-07 at index (63, 1173) (up to 1e-07 allowed)\nGreatest relative difference: 0.5000003576278687 at index (1299, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.4.self_attn.q_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 1536 (0.1%)\nGreatest absolute difference: 1.4383113011717796e-07 at index (757,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0006564639625139534 at index (757,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.4.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 967 / 393216 (0.2%)\nGreatest absolute difference: 2.3008324205875397e-06 at index (53, 286) (up to 1e-07 allowed)\nGreatest relative difference: 0.3750004470348358 at index (111, 147) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.4.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1899 / 393216 (0.5%)\nGreatest absolute difference: 2.300366759300232e-06 at index (167, 1173) (up to 1e-07 allowed)\nGreatest relative difference: 1.0 at index (167, 1215) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.4.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 47 / 256 (18.4%)\nGreatest absolute difference: 2.877204678952694e-07 at index (229,) (up to 1e-07 allowed)\nGreatest relative difference: 0.05031373351812363 at index (41,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.4.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 211 / 2359296 (0.0%)\nGreatest absolute difference: 2.8760405257344246e-07 at index (980, 1469) (up to 1e-07 allowed)\nGreatest relative difference: 0.003003667574375868 at index (1426, 774) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.4.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2904 / 13762560 (0.0%)\nGreatest absolute difference: 2.3010652512311935e-06 at index (4277, 147) (up to 1e-07 allowed)\nGreatest relative difference: 0.6666655540466309 at index (7236, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.4.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 7021 / 13762560 (0.1%)\nGreatest absolute difference: 4.59328293800354e-06 at index (3294, 147) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (5543, 286) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.4.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 921 / 13762560 (0.0%)\nGreatest absolute difference: 5.74655132368207e-07 at index (1424, 4277) (up to 1e-07 allowed)\nGreatest relative difference: 0.0652179941534996 at index (1363, 4277) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.4.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 6 / 1536 (0.4%)\nGreatest absolute difference: 5.75091689825058e-07 at index (713,) (up to 1e-07 allowed)\nGreatest relative difference: 0.02127726376056671 at index (609,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.4.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 13 / 1536 (0.8%)\nGreatest absolute difference: 2.872257027775049e-07 at index (1173,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0031242670956999063 at index (1166,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.5.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 951 / 2359296 (0.0%)\nGreatest absolute difference: 1.1489028111100197e-06 at index (1342, 713) (up to 1e-07 allowed)\nGreatest relative difference: 1.999997854232788 at index (1366, 1073) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.5.self_attn.q_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 1536 (0.1%)\nGreatest absolute difference: 1.4360557543113828e-07 at index (1406,) (up to 1e-07 allowed)\nGreatest relative difference: 0.00140384491533041 at index (1406,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.5.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1856 / 393216 (0.5%)\nGreatest absolute difference: 2.300599589943886e-06 at index (190, 1360) (up to 1e-07 allowed)\nGreatest relative difference: 0.7142859101295471 at index (215, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.5.self_attn.k_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 256 (0.4%)\nGreatest absolute difference: 1.4352553989738226e-07 at index (6,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0006704567349515855 at index (6,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.5.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1806 / 393216 (0.5%)\nGreatest absolute difference: 4.595145583152771e-06 at index (16, 1279) (up to 1e-07 allowed)\nGreatest relative difference: 0.7999988198280334 at index (36, 1229) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.5.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 34 / 256 (13.3%)\nGreatest absolute difference: 5.743349902331829e-07 at index (15,) (up to 1e-07 allowed)\nGreatest relative difference: 0.008954484015703201 at index (74,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.5.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 730 / 2359296 (0.0%)\nGreatest absolute difference: 5.742767825722694e-07 at index (713, 917) (up to 1e-07 allowed)\nGreatest relative difference: 0.5274728536605835 at index (1174, 1045) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.5.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2250 / 13762560 (0.0%)\nGreatest absolute difference: 2.296874299645424e-06 at index (8591, 713) (up to 1e-07 allowed)\nGreatest relative difference: 2.9999988079071045 at index (3039, 147) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.5.mlp.up_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 13762560 (0.0%)\nGreatest absolute difference: 1.6232661437243223e-08 at index (3042, 147) (up to 1e-08 allowed)\nGreatest relative difference: 0.00030249732662923634 at index (3042, 147) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.5.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 6553 / 13762560 (0.0%)\nGreatest absolute difference: 2.2973399609327316e-06 at index (4914, 1421) (up to 1e-07 allowed)\nGreatest relative difference: 0.9999986290931702 at index (3549, 286) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.5.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1454 / 13762560 (0.0%)\nGreatest absolute difference: 1.1489028111100197e-06 at index (1173, 7078) (up to 1e-07 allowed)\nGreatest relative difference: 0.11111170053482056 at index (33, 8591) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.5.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 4 / 1536 (0.3%)\nGreatest absolute difference: 2.8721115086227655e-07 at index (286,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0015144508797675371 at index (286,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.5.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 10 / 1536 (0.7%)\nGreatest absolute difference: 2.873398443625774e-07 at index (1421,) (up to 1e-07 allowed)\nGreatest relative difference: 0.04999927058815956 at index (1421,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.6.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 928 / 2359296 (0.0%)\nGreatest absolute difference: 1.1505326256155968e-06 at index (369, 147) (up to 1e-07 allowed)\nGreatest relative difference: 0.49999895691871643 at index (555, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.6.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1222 / 393216 (0.3%)\nGreatest absolute difference: 2.3010652512311935e-06 at index (94, 713) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (9, 1073) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.6.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2541 / 393216 (0.6%)\nGreatest absolute difference: 2.301763743162155e-06 at index (65, 713) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (215, 1073) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.6.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 41 / 256 (16.0%)\nGreatest absolute difference: 2.876331564038992e-07 at index (140,) (up to 1e-07 allowed)\nGreatest relative difference: 0.027842866256833076 at index (19,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.6.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 586 / 2359296 (0.0%)\nGreatest absolute difference: 5.751498974859715e-07 at index (839, 20) (up to 1e-07 allowed)\nGreatest relative difference: 0.14285777509212494 at index (1083, 20) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.6.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 929 / 13762560 (0.0%)\nGreatest absolute difference: 1.150299794971943e-06 at index (2334, 286) (up to 1e-07 allowed)\nGreatest relative difference: 0.05882416293025017 at index (2583, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.6.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2178 / 13762560 (0.0%)\nGreatest absolute difference: 5.753245204687119e-07 at index (7377, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.4000003933906555 at index (6322, 286) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.6.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 381 / 13762560 (0.0%)\nGreatest absolute difference: 5.742767825722694e-07 at index (126, 2334) (up to 1e-07 allowed)\nGreatest relative difference: 0.01492470782250166 at index (1187, 2334) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.6.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 6 / 1536 (0.4%)\nGreatest absolute difference: 2.87545844912529e-07 at index (969,) (up to 1e-07 allowed)\nGreatest relative difference: 0.001967892749235034 at index (553,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.6.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 20 / 1536 (1.3%)\nGreatest absolute difference: 2.8766226023435593e-07 at index (395,) (up to 1e-07 allowed)\nGreatest relative difference: 0.03703772649168968 at index (991,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.7.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 907 / 2359296 (0.0%)\nGreatest absolute difference: 8.623464964330196e-07 at index (503, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.2799990773200989 at index (1522, 147) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.7.self_attn.q_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 3 / 1536 (0.2%)\nGreatest absolute difference: 2.875749487429857e-07 at index (503,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0011897754156962037 at index (494,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.7.self_attn.k_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 393216 (0.0%)\nGreatest absolute difference: 1.8673017621040344e-07 at index (55, 713) (up to 1e-08 allowed)\nGreatest relative difference: 3.536863732733764e-05 at index (55, 713) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.7.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1032 / 393216 (0.3%)\nGreatest absolute difference: 2.3008324205875397e-06 at index (55, 1173) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (55, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.7.self_attn.k_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 4 / 256 (1.6%)\nGreatest absolute difference: 1.438602339476347e-07 at index (192,) (up to 1e-07 allowed)\nGreatest relative difference: 0.001144852489233017 at index (1,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.7.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2274 / 393216 (0.6%)\nGreatest absolute difference: 2.2971071302890778e-06 at index (248, 147) (up to 1e-07 allowed)\nGreatest relative difference: 0.4545458257198334 at index (223, 1222) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.7.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 28 / 256 (10.9%)\nGreatest absolute difference: 2.876331564038992e-07 at index (219,) (up to 1e-07 allowed)\nGreatest relative difference: 0.005297307390719652 at index (158,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.7.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 749 / 2359296 (0.0%)\nGreatest absolute difference: 5.751498974859715e-07 at index (934, 587) (up to 1e-07 allowed)\nGreatest relative difference: 0.04137859866023064 at index (1488, 597) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.7.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1037 / 13762560 (0.0%)\nGreatest absolute difference: 5.752663128077984e-07 at index (6683, 147) (up to 1e-07 allowed)\nGreatest relative difference: 0.5000003576278687 at index (729, 286) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.7.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1662 / 13762560 (0.0%)\nGreatest absolute difference: 5.754409357905388e-07 at index (8407, 147) (up to 1e-07 allowed)\nGreatest relative difference: 0.33333244919776917 at index (7672, 1173) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.7.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 422 / 13762560 (0.0%)\nGreatest absolute difference: 5.75091689825058e-07 at index (1516, 1467) (up to 1e-07 allowed)\nGreatest relative difference: 0.008130747824907303 at index (308, 1467) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.7.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 11 / 1536 (0.7%)\nGreatest absolute difference: 1.1498341336846352e-06 at index (940,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0016955907922238111 at index (940,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.7.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 24 / 1536 (1.6%)\nGreatest absolute difference: 2.876331564038992e-07 at index (222,) (up to 1e-07 allowed)\nGreatest relative difference: 0.006969301030039787 at index (580,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.8.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 798 / 2359296 (0.0%)\nGreatest absolute difference: 1.148320734500885e-06 at index (1268, 500) (up to 1e-07 allowed)\nGreatest relative difference: 0.047618281096220016 at index (777, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.8.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1136 / 393216 (0.3%)\nGreatest absolute difference: 4.601199179887772e-06 at index (180, 147) (up to 1e-07 allowed)\nGreatest relative difference: 0.08333396911621094 at index (180, 1103) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.8.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2092 / 393216 (0.5%)\nGreatest absolute difference: 1.1508818715810776e-06 at index (91, 147) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (112, 1215) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.8.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 22 / 256 (8.6%)\nGreatest absolute difference: 2.875749487429857e-07 at index (174,) (up to 1e-07 allowed)\nGreatest relative difference: 0.007041582837700844 at index (38,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.8.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 697 / 2359296 (0.0%)\nGreatest absolute difference: 2.877204678952694e-07 at index (987, 982) (up to 1e-07 allowed)\nGreatest relative difference: 0.49999895691871643 at index (286, 982) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.8.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 801 / 13762560 (0.0%)\nGreatest absolute difference: 5.754409357905388e-07 at index (6327, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.09090834856033325 at index (4326, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.8.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1734 / 13762560 (0.0%)\nGreatest absolute difference: 5.752081051468849e-07 at index (853, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.14285629987716675 at index (8787, 286) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.8.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 154 / 13762560 (0.0%)\nGreatest absolute difference: 2.87545844912529e-07 at index (48, 1171) (up to 1e-07 allowed)\nGreatest relative difference: 0.002026329282671213 at index (57, 3985) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.8.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 1536 (0.1%)\nGreatest absolute difference: 1.437292667105794e-07 at index (721,) (up to 1e-07 allowed)\nGreatest relative difference: 0.001610947772860527 at index (721,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.8.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 20 / 1536 (1.3%)\nGreatest absolute difference: 2.876331564038992e-07 at index (222,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0034233746118843555 at index (1222,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.9.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 994 / 2359296 (0.0%)\nGreatest absolute difference: 2.296408638358116e-06 at index (1398, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.11111170053482056 at index (828, 1360) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.9.self_attn.q_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 1536 (0.1%)\nGreatest absolute difference: 1.4352553989738226e-07 at index (1398,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0006395521922968328 at index (1398,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.9.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1135 / 393216 (0.3%)\nGreatest absolute difference: 2.3010652512311935e-06 at index (182, 1173) (up to 1e-07 allowed)\nGreatest relative difference: 0.199999138712883 at index (52, 1248) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.9.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1505 / 393216 (0.4%)\nGreatest absolute difference: 2.296874299645424e-06 at index (89, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.2500005066394806 at index (243, 553) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.9.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 30 / 256 (11.7%)\nGreatest absolute difference: 5.751498974859715e-07 at index (14,) (up to 1e-07 allowed)\nGreatest relative difference: 0.007299960590898991 at index (209,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.9.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1066 / 2359296 (0.0%)\nGreatest absolute difference: 5.752081051468849e-07 at index (501, 1121) (up to 1e-07 allowed)\nGreatest relative difference: 0.14285629987716675 at index (26, 865) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.9.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 840 / 13762560 (0.0%)\nGreatest absolute difference: 5.751498974859715e-07 at index (3667, 286) (up to 1e-07 allowed)\nGreatest relative difference: 0.04615451395511627 at index (8020, 1173) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.9.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1431 / 13762560 (0.0%)\nGreatest absolute difference: 5.752663128077984e-07 at index (6388, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.028570787981152534 at index (2107, 147) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.9.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 289 / 13762560 (0.0%)\nGreatest absolute difference: 2.8766226023435593e-07 at index (726, 7972) (up to 1e-07 allowed)\nGreatest relative difference: 0.015625687316060066 at index (1518, 7972) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.9.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 3 / 1536 (0.2%)\nGreatest absolute difference: 1.4354009181261063e-07 at index (223,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0007335402187891304 at index (223,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.9.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 20 / 1536 (1.3%)\nGreatest absolute difference: 2.8766226023435593e-07 at index (713,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0013953972375020385 at index (844,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.10.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 635 / 2359296 (0.0%)\nGreatest absolute difference: 1.150299794971943e-06 at index (1144, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.14285770058631897 at index (443, 1360) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.10.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1001 / 393216 (0.3%)\nGreatest absolute difference: 2.3012980818748474e-06 at index (119, 286) (up to 1e-07 allowed)\nGreatest relative difference: 0.3333337604999542 at index (178, 706) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.10.self_attn.v_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 393216 (0.0%)\nGreatest absolute difference: 3.620516508817673e-08 at index (74, 147) (up to 1e-08 allowed)\nGreatest relative difference: 0.00010489863052498549 at index (233, 1424) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.10.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1526 / 393216 (0.4%)\nGreatest absolute difference: 2.2971071302890778e-06 at index (30, 147) (up to 1e-07 allowed)\nGreatest relative difference: 1.0 at index (211, 253) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.10.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 26 / 256 (10.2%)\nGreatest absolute difference: 2.877204678952694e-07 at index (46,) (up to 1e-07 allowed)\nGreatest relative difference: 0.003823485691100359 at index (19,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.10.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2063 / 2359296 (0.1%)\nGreatest absolute difference: 5.752081051468849e-07 at index (520, 1021) (up to 1e-07 allowed)\nGreatest relative difference: 0.12500065565109253 at index (1182, 1533) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.10.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 753 / 13762560 (0.0%)\nGreatest absolute difference: 1.1498341336846352e-06 at index (6818, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.04545518010854721 at index (7706, 553) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.10.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1677 / 13762560 (0.0%)\nGreatest absolute difference: 5.752663128077984e-07 at index (431, 286) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (2426, 553) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.10.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 169 / 13762560 (0.0%)\nGreatest absolute difference: 2.8760405257344246e-07 at index (908, 2489) (up to 1e-07 allowed)\nGreatest relative difference: 0.004424077458679676 at index (960, 2063) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.10.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 3 / 1536 (0.2%)\nGreatest absolute difference: 2.875749487429857e-07 at index (969,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0008305424707941711 at index (969,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.10.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 14 / 1536 (0.9%)\nGreatest absolute difference: 5.753245204687119e-07 at index (1222,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0010006010998040438 at index (1173,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.11.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 693 / 2359296 (0.0%)\nGreatest absolute difference: 2.3010652512311935e-06 at index (246, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.2500005066394806 at index (1494, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.11.self_attn.q_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 1536 (0.1%)\nGreatest absolute difference: 1.4383113011717796e-07 at index (246,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0006198807968758047 at index (246,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.11.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1018 / 393216 (0.3%)\nGreatest absolute difference: 4.593748599290848e-06 at index (246, 1229) (up to 1e-07 allowed)\nGreatest relative difference: 0.49999895691871643 at index (54, 1198) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.11.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2344 / 393216 (0.6%)\nGreatest absolute difference: 2.3010652512311935e-06 at index (137, 1173) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (227, 113) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.11.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 24 / 256 (9.4%)\nGreatest absolute difference: 2.87109287455678e-07 at index (145,) (up to 1e-07 allowed)\nGreatest relative difference: 0.03448351100087166 at index (214,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.11.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1801 / 2359296 (0.1%)\nGreatest absolute difference: 2.877204678952694e-07 at index (633, 1421) (up to 1e-07 allowed)\nGreatest relative difference: 0.02564028650522232 at index (791, 1137) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.11.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 808 / 13762560 (0.0%)\nGreatest absolute difference: 5.752663128077984e-07 at index (5297, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.10810870677232742 at index (2905, 286) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.11.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1366 / 13762560 (0.0%)\nGreatest absolute difference: 5.753245204687119e-07 at index (7871, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.03124929778277874 at index (4831, 286) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.11.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 216 / 13762560 (0.0%)\nGreatest absolute difference: 2.8760405257344246e-07 at index (577, 6946) (up to 1e-07 allowed)\nGreatest relative difference: 0.0030494551174342632 at index (987, 2361) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.11.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 3 / 1536 (0.2%)\nGreatest absolute difference: 1.4383113011717796e-07 at index (44,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0016127334674820304 at index (718,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.11.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 19 / 1536 (1.2%)\nGreatest absolute difference: 5.740439519286156e-07 at index (553,) (up to 1e-07 allowed)\nGreatest relative difference: 0.008334016427397728 at index (580,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.12.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 571 / 2359296 (0.0%)\nGreatest absolute difference: 1.150299794971943e-06 at index (1388, 147) (up to 1e-07 allowed)\nGreatest relative difference: 0.2857148051261902 at index (1399, 1397) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.12.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 870 / 393216 (0.2%)\nGreatest absolute difference: 2.2995518520474434e-06 at index (183, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.600000262260437 at index (186, 553) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.12.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1264 / 393216 (0.3%)\nGreatest absolute difference: 1.1506490409374237e-06 at index (152, 713) (up to 1e-07 allowed)\nGreatest relative difference: 1.4999982118606567 at index (207, 1360) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.12.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 14 / 256 (5.5%)\nGreatest absolute difference: 2.8708018362522125e-07 at index (110,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0012643731897696853 at index (157,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.12.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1631 / 2359296 (0.1%)\nGreatest absolute difference: 5.752081051468849e-07 at index (1351, 839) (up to 1e-07 allowed)\nGreatest relative difference: 0.9999986290931702 at index (738, 207) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.12.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 587 / 13762560 (0.0%)\nGreatest absolute difference: 2.877204678952694e-07 at index (425, 1173) (up to 1e-07 allowed)\nGreatest relative difference: 0.2500005066394806 at index (3714, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.12.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1233 / 13762560 (0.0%)\nGreatest absolute difference: 5.752663128077984e-07 at index (6310, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.24324378371238708 at index (7969, 286) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.12.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 165 / 13762560 (0.0%)\nGreatest absolute difference: 2.87545844912529e-07 at index (425, 1111) (up to 1e-07 allowed)\nGreatest relative difference: 0.001912711071781814 at index (453, 1310) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.12.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 1536 (0.1%)\nGreatest absolute difference: 1.437729224562645e-07 at index (609,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009214570745825768 at index (609,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.12.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 11 / 1536 (0.7%)\nGreatest absolute difference: 5.742767825722694e-07 at index (1214,) (up to 1e-07 allowed)\nGreatest relative difference: 0.005813227500766516 at index (1360,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.13.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 362 / 2359296 (0.0%)\nGreatest absolute difference: 1.1504162102937698e-06 at index (756, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.24999913573265076 at index (1137, 1173) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.13.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1055 / 393216 (0.3%)\nGreatest absolute difference: 4.601199179887772e-06 at index (52, 1222) (up to 1e-07 allowed)\nGreatest relative difference: 0.0952373668551445 at index (177, 581) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.13.self_attn.v_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 393216 (0.0%)\nGreatest absolute difference: 1.1772499419748783e-08 at index (47, 1248) (up to 1e-08 allowed)\nGreatest relative difference: 9.223196684615687e-05 at index (47, 1248) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.13.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1472 / 393216 (0.4%)\nGreatest absolute difference: 2.29664146900177e-06 at index (209, 147) (up to 1e-07 allowed)\nGreatest relative difference: inf at index (244, 580) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.13.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 21 / 256 (8.2%)\nGreatest absolute difference: 2.871820470318198e-07 at index (114,) (up to 1e-07 allowed)\nGreatest relative difference: 0.006368739530444145 at index (53,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.13.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1498 / 2359296 (0.1%)\nGreatest absolute difference: 2.877204678952694e-07 at index (1501, 1035) (up to 1e-07 allowed)\nGreatest relative difference: 0.09090971201658249 at index (1170, 562) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.13.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 533 / 13762560 (0.0%)\nGreatest absolute difference: 5.752081051468849e-07 at index (2700, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.15300466120243073 at index (14, 1248) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.13.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 765 / 13762560 (0.0%)\nGreatest absolute difference: 1.1504162102937698e-06 at index (8923, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.3333337604999542 at index (2189, 1248) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.13.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 73 / 13762560 (0.0%)\nGreatest absolute difference: 1.4384568203240633e-07 at index (716, 4348) (up to 1e-07 allowed)\nGreatest relative difference: 0.0017723195487633348 at index (889, 6242) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.13.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 6 / 1536 (0.4%)\nGreatest absolute difference: 2.87545844912529e-07 at index (1424,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0051553878001868725 at index (566,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.13.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 18 / 1536 (1.2%)\nGreatest absolute difference: 5.74218574911356e-07 at index (1421,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0033064328599721193 at index (553,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.14.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 732 / 2359296 (0.0%)\nGreatest absolute difference: 1.1508818715810776e-06 at index (319, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.14285777509212494 at index (61, 1007) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.14.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 917 / 393216 (0.2%)\nGreatest absolute difference: 4.601199179887772e-06 at index (253, 147) (up to 1e-07 allowed)\nGreatest relative difference: 0.09090971201658249 at index (186, 1173) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.14.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1359 / 393216 (0.3%)\nGreatest absolute difference: 2.300366759300232e-06 at index (149, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.49999895691871643 at index (131, 147) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.14.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 20 / 256 (7.8%)\nGreatest absolute difference: 2.871820470318198e-07 at index (12,) (up to 1e-07 allowed)\nGreatest relative difference: 0.007091522682458162 at index (3,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.14.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 985 / 2359296 (0.0%)\nGreatest absolute difference: 5.75091689825058e-07 at index (886, 875) (up to 1e-07 allowed)\nGreatest relative difference: 0.11111170053482056 at index (788, 438) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.14.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 395 / 13762560 (0.0%)\nGreatest absolute difference: 5.754409357905388e-07 at index (2090, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.047619711607694626 at index (5788, 969) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.14.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 809 / 13762560 (0.0%)\nGreatest absolute difference: 5.75091689825058e-07 at index (2595, 1421) (up to 1e-07 allowed)\nGreatest relative difference: 0.18749915063381195 at index (552, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.14.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 113 / 13762560 (0.0%)\nGreatest absolute difference: 2.877204678952694e-07 at index (321, 6622) (up to 1e-07 allowed)\nGreatest relative difference: 0.01075336616486311 at index (527, 6622) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.14.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 1536 (0.1%)\nGreatest absolute difference: 1.438165782019496e-07 at index (1424,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0007376611465588212 at index (1424,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.14.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 5 / 1536 (0.3%)\nGreatest absolute difference: 2.875749487429857e-07 at index (1421,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009692380554042757 at index (255,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.15.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 511 / 2359296 (0.0%)\nGreatest absolute difference: 5.754409357905388e-07 at index (1143, 580) (up to 1e-07 allowed)\nGreatest relative difference: 0.33333244919776917 at index (564, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.15.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 759 / 393216 (0.2%)\nGreatest absolute difference: 2.2988533601164818e-06 at index (121, 147) (up to 1e-07 allowed)\nGreatest relative difference: 0.08333265036344528 at index (121, 592) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.15.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1504 / 393216 (0.4%)\nGreatest absolute difference: 2.300599589943886e-06 at index (173, 1424) (up to 1e-07 allowed)\nGreatest relative difference: 0.49999895691871643 at index (219, 113) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.15.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 12 / 256 (4.7%)\nGreatest absolute difference: 2.8760405257344246e-07 at index (219,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0011067393934354186 at index (161,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.15.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1373 / 2359296 (0.1%)\nGreatest absolute difference: 2.8766226023435593e-07 at index (103, 292) (up to 1e-07 allowed)\nGreatest relative difference: 0.007352240849286318 at index (1318, 901) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.15.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 499 / 13762560 (0.0%)\nGreatest absolute difference: 5.751498974859715e-07 at index (1322, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.33333244919776917 at index (2728, 1421) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.15.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 894 / 13762560 (0.0%)\nGreatest absolute difference: 5.754409357905388e-07 at index (5372, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.08333265036344528 at index (4226, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.15.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 184 / 13762560 (0.0%)\nGreatest absolute difference: 5.74218574911356e-07 at index (1513, 4615) (up to 1e-07 allowed)\nGreatest relative difference: 0.011236662976443768 at index (703, 4615) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.15.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 1536 (0.1%)\nGreatest absolute difference: 1.4356919564306736e-07 at index (763,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009059695294126868 at index (763,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.15.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 10 / 1536 (0.7%)\nGreatest absolute difference: 2.870219759643078e-07 at index (865,) (up to 1e-07 allowed)\nGreatest relative difference: 0.001178520848043263 at index (223,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.16.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 517 / 2359296 (0.0%)\nGreatest absolute difference: 5.754409357905388e-07 at index (446, 580) (up to 1e-07 allowed)\nGreatest relative difference: 0.07142922282218933 at index (480, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.16.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 671 / 393216 (0.2%)\nGreatest absolute difference: 1.150299794971943e-06 at index (127, 671) (up to 1e-07 allowed)\nGreatest relative difference: 0.5000003576278687 at index (49, 286) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.16.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1110 / 393216 (0.3%)\nGreatest absolute difference: 1.1505326256155968e-06 at index (80, 865) (up to 1e-07 allowed)\nGreatest relative difference: 0.041665997356176376 at index (165, 900) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.16.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 8 / 256 (3.1%)\nGreatest absolute difference: 1.438602339476347e-07 at index (163,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009543295600451529 at index (20,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.16.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1534 / 2359296 (0.1%)\nGreatest absolute difference: 5.752663128077984e-07 at index (207, 467) (up to 1e-07 allowed)\nGreatest relative difference: 0.03846219554543495 at index (1376, 83) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.16.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 398 / 13762560 (0.0%)\nGreatest absolute difference: 1.1485535651445389e-06 at index (1011, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.9999986290931702 at index (1191, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.16.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 735 / 13762560 (0.0%)\nGreatest absolute difference: 1.150183379650116e-06 at index (6546, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.08333265036344528 at index (8655, 969) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.16.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 79 / 13762560 (0.0%)\nGreatest absolute difference: 2.8760405257344246e-07 at index (862, 4130) (up to 1e-07 allowed)\nGreatest relative difference: 0.001738502411171794 at index (176, 593) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.16.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 1536 (0.1%)\nGreatest absolute difference: 2.871383912861347e-07 at index (1073,) (up to 1e-07 allowed)\nGreatest relative difference: 0.000951699388679117 at index (1073,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.16.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 4 / 1536 (0.3%)\nGreatest absolute difference: 1.438165782019496e-07 at index (251,) (up to 1e-07 allowed)\nGreatest relative difference: 0.001201245584525168 at index (222,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.17.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 228 / 2359296 (0.0%)\nGreatest absolute difference: 5.753827281296253e-07 at index (444, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.12500065565109253 at index (415, 865) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.17.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 598 / 393216 (0.2%)\nGreatest absolute difference: 2.3010652512311935e-06 at index (180, 1073) (up to 1e-07 allowed)\nGreatest relative difference: 0.1249992698431015 at index (180, 373) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.17.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 879 / 393216 (0.2%)\nGreatest absolute difference: 4.602130502462387e-06 at index (235, 408) (up to 1e-07 allowed)\nGreatest relative difference: 0.14285629987716675 at index (13, 580) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.17.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 10 / 256 (3.9%)\nGreatest absolute difference: 2.876331564038992e-07 at index (238,) (up to 1e-07 allowed)\nGreatest relative difference: 0.004192207474261522 at index (213,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.17.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 541 / 2359296 (0.0%)\nGreatest absolute difference: 2.876331564038992e-07 at index (1158, 280) (up to 1e-07 allowed)\nGreatest relative difference: 0.0023550407495349646 at index (1423, 180) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.17.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 410 / 13762560 (0.0%)\nGreatest absolute difference: 5.751498974859715e-07 at index (4853, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.2500005066394806 at index (7766, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.17.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 779 / 13762560 (0.0%)\nGreatest absolute difference: 5.754409357905388e-07 at index (1441, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.06666738539934158 at index (1763, 1421) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.17.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 82 / 13762560 (0.0%)\nGreatest absolute difference: 2.8760405257344246e-07 at index (1354, 62) (up to 1e-07 allowed)\nGreatest relative difference: 0.0015755104832351208 at index (159, 7188) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.17.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 1536 (0.1%)\nGreatest absolute difference: 2.87545844912529e-07 at index (286,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009762949775904417 at index (286,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.17.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 1536 (0.1%)\nGreatest absolute difference: 1.4380202628672123e-07 at index (33,) (up to 1e-07 allowed)\nGreatest relative difference: 0.00079060421558097 at index (33,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.18.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 345 / 2359296 (0.0%)\nGreatest absolute difference: 1.1506490409374237e-06 at index (1010, 1222) (up to 1e-07 allowed)\nGreatest relative difference: 0.01941673271358013 at index (23, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.18.self_attn.q_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 1536 (0.1%)\nGreatest absolute difference: 1.43554643727839e-07 at index (1021,) (up to 1e-07 allowed)\nGreatest relative difference: 0.000884232809767127 at index (1021,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.18.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 830 / 393216 (0.2%)\nGreatest absolute difference: 2.300599589943886e-06 at index (115, 553) (up to 1e-07 allowed)\nGreatest relative difference: 0.7142859101295471 at index (208, 1173) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.18.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 987 / 393216 (0.3%)\nGreatest absolute difference: 1.1506490409374237e-06 at index (87, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.3333337604999542 at index (149, 1222) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.18.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 3 / 256 (1.2%)\nGreatest absolute difference: 2.87545844912529e-07 at index (119,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009594461880624294 at index (119,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.18.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 448 / 2359296 (0.0%)\nGreatest absolute difference: 2.8766226023435593e-07 at index (1104, 1395) (up to 1e-07 allowed)\nGreatest relative difference: 0.11111170053482056 at index (967, 1360) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.18.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 418 / 13762560 (0.0%)\nGreatest absolute difference: 5.752081051468849e-07 at index (2525, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.013699233531951904 at index (8302, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.18.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 700 / 13762560 (0.0%)\nGreatest absolute difference: 1.1506490409374237e-06 at index (4157, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.15555614233016968 at index (7062, 1421) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.18.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 80 / 13762560 (0.0%)\nGreatest absolute difference: 2.876331564038992e-07 at index (1071, 8340) (up to 1e-07 allowed)\nGreatest relative difference: 0.009524470195174217 at index (1020, 8340) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.18.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 1536 (0.1%)\nGreatest absolute difference: 1.438602339476347e-07 at index (713,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0006686616688966751 at index (609,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.18.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 4 / 1536 (0.3%)\nGreatest absolute difference: 2.876331564038992e-07 at index (865,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009701790404506028 at index (612,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.19.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 150 / 2359296 (0.0%)\nGreatest absolute difference: 5.75091689825058e-07 at index (820, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.030302349478006363 at index (1460, 147) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.19.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 706 / 393216 (0.2%)\nGreatest absolute difference: 1.1508818715810776e-06 at index (161, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.04545518010854721 at index (126, 1166) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.19.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 981 / 393216 (0.2%)\nGreatest absolute difference: 4.594912752509117e-06 at index (5, 408) (up to 1e-07 allowed)\nGreatest relative difference: 0.9999986290931702 at index (62, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.19.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 7 / 256 (2.7%)\nGreatest absolute difference: 2.87545844912529e-07 at index (10,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009659288916736841 at index (10,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.19.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 122 / 2359296 (0.0%)\nGreatest absolute difference: 1.438602339476347e-07 at index (251, 1517) (up to 1e-07 allowed)\nGreatest relative difference: 0.0017278039595112205 at index (904, 1495) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.19.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 357 / 13762560 (0.0%)\nGreatest absolute difference: 5.751498974859715e-07 at index (7240, 251) (up to 1e-07 allowed)\nGreatest relative difference: 0.02325507067143917 at index (7714, 1421) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.19.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 724 / 13762560 (0.0%)\nGreatest absolute difference: 1.148437149822712e-06 at index (187, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.031088730320334435 at index (3848, 1229) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.19.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 88 / 13762560 (0.0%)\nGreatest absolute difference: 5.742767825722694e-07 at index (618, 7240) (up to 1e-07 allowed)\nGreatest relative difference: 0.0015122364275157452 at index (1514, 5887) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.19.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 4 / 1536 (0.3%)\nGreatest absolute difference: 1.438602339476347e-07 at index (408,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0012040927540510893 at index (147,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.19.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 7 / 1536 (0.5%)\nGreatest absolute difference: 2.87545844912529e-07 at index (1073,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009612895082682371 at index (1073,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.20.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 205 / 2359296 (0.0%)\nGreatest absolute difference: 5.742767825722694e-07 at index (831, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.027778385207057 at index (959, 1424) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.20.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 479 / 393216 (0.1%)\nGreatest absolute difference: 1.148437149822712e-06 at index (122, 1222) (up to 1e-07 allowed)\nGreatest relative difference: 0.04545518010854721 at index (179, 113) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.20.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 577 / 393216 (0.1%)\nGreatest absolute difference: 1.1504162102937698e-06 at index (169, 1173) (up to 1e-07 allowed)\nGreatest relative difference: 0.3999989330768585 at index (152, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.20.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 3 / 256 (1.2%)\nGreatest absolute difference: 1.43554643727839e-07 at index (128,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009390818304382265 at index (128,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.20.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 46 / 2359296 (0.0%)\nGreatest absolute difference: 2.871383912861347e-07 at index (1325, 926) (up to 1e-07 allowed)\nGreatest relative difference: 0.001738502411171794 at index (1507, 926) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.20.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 123 / 13762560 (0.0%)\nGreatest absolute difference: 2.877204678952694e-07 at index (6328, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.014285077340900898 at index (8226, 147) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.20.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 251 / 13762560 (0.0%)\nGreatest absolute difference: 5.751498974859715e-07 at index (3613, 553) (up to 1e-07 allowed)\nGreatest relative difference: 0.004716292954981327 at index (8172, 553) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.20.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 23 / 13762560 (0.0%)\nGreatest absolute difference: 1.4383113011717796e-07 at index (479, 8339) (up to 1e-07 allowed)\nGreatest relative difference: 0.0012879333226010203 at index (518, 7441) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.20.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 1536 (0.1%)\nGreatest absolute difference: 1.437729224562645e-07 at index (1173,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009566944791004062 at index (1173,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.20.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 1536 (0.1%)\nGreatest absolute difference: 1.4378747437149286e-07 at index (553,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0008848838624544442 at index (553,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.21.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 174 / 2359296 (0.0%)\nGreatest absolute difference: 5.753827281296253e-07 at index (894, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.33333244919776917 at index (1459, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.21.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 329 / 393216 (0.1%)\nGreatest absolute difference: 1.1505326256155968e-06 at index (185, 286) (up to 1e-07 allowed)\nGreatest relative difference: 0.0075180805288255215 at index (239, 1360) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.21.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 638 / 393216 (0.2%)\nGreatest absolute difference: 1.150066964328289e-06 at index (22, 900) (up to 1e-07 allowed)\nGreatest relative difference: 0.09999917447566986 at index (48, 286) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.21.self_attn.v_proj.bias",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 4 / 256 (1.6%)\nGreatest absolute difference: 1.4380202628672123e-07 at index (125,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0008848838624544442 at index (118,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.21.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 208 / 2359296 (0.0%)\nGreatest absolute difference: 2.876331564038992e-07 at index (1420, 669) (up to 1e-07 allowed)\nGreatest relative difference: 0.0026448152493685484 at index (919, 669) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.21.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 107 / 13762560 (0.0%)\nGreatest absolute difference: 5.753245204687119e-07 at index (644, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.03999929130077362 at index (2142, 553) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.21.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 243 / 13762560 (0.0%)\nGreatest absolute difference: 5.754409357905388e-07 at index (8761, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.013746396638453007 at index (4392, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.21.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 42 / 13762560 (0.0%)\nGreatest absolute difference: 2.87545844912529e-07 at index (129, 4842) (up to 1e-07 allowed)\nGreatest relative difference: 0.0033285231329500675 at index (1412, 3201) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.21.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 1536 (0.1%)\nGreatest absolute difference: 2.870510797947645e-07 at index (609,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0006470081279985607 at index (609,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.22.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 52 / 2359296 (0.0%)\nGreatest absolute difference: 2.8760405257344246e-07 at index (377, 1222) (up to 1e-07 allowed)\nGreatest relative difference: 0.009524470195174217 at index (823, 1222) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.22.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 294 / 393216 (0.1%)\nGreatest absolute difference: 1.150183379650116e-06 at index (121, 1222) (up to 1e-07 allowed)\nGreatest relative difference: 0.199999138712883 at index (121, 1215) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.22.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 273 / 393216 (0.1%)\nGreatest absolute difference: 5.753245204687119e-07 at index (177, 408) (up to 1e-07 allowed)\nGreatest relative difference: 0.03361407294869423 at index (230, 147) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.22.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 1 / 2359296 (0.0%)\nGreatest absolute difference: 1.4378747437149286e-07 at index (367, 710) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009114787098951638 at index (367, 710) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.22.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 125 / 13762560 (0.0%)\nGreatest absolute difference: 2.875749487429857e-07 at index (609, 609) (up to 1e-07 allowed)\nGreatest relative difference: 0.0025833079125732183 at index (3379, 1173) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.22.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 217 / 13762560 (0.0%)\nGreatest absolute difference: 5.742767825722694e-07 at index (1234, 553) (up to 1e-07 allowed)\nGreatest relative difference: 0.06666738539934158 at index (7729, 1173) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.22.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 40 / 13762560 (0.0%)\nGreatest absolute difference: 1.438602339476347e-07 at index (144, 7729) (up to 1e-07 allowed)\nGreatest relative difference: 0.002247859025374055 at index (1412, 4723) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.22.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 1536 (0.1%)\nGreatest absolute difference: 1.4354009181261063e-07 at index (185,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0007080665091052651 at index (185,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.23.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 148 / 2359296 (0.0%)\nGreatest absolute difference: 5.753245204687119e-07 at index (1146, 251) (up to 1e-07 allowed)\nGreatest relative difference: 0.03703772649168968 at index (1125, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.23.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 421 / 393216 (0.1%)\nGreatest absolute difference: 2.2974563762545586e-06 at index (186, 1222) (up to 1e-07 allowed)\nGreatest relative difference: 0.08333396911621094 at index (165, 1215) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.23.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 336 / 393216 (0.1%)\nGreatest absolute difference: 1.1504162102937698e-06 at index (75, 147) (up to 1e-07 allowed)\nGreatest relative difference: 0.03124929778277874 at index (104, 147) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.23.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 220 / 2359296 (0.0%)\nGreatest absolute difference: 2.8777867555618286e-07 at index (107, 200) (up to 1e-07 allowed)\nGreatest relative difference: 0.006848663091659546 at index (1423, 584) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.23.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 33 / 13762560 (0.0%)\nGreatest absolute difference: 2.876331564038992e-07 at index (291, 154) (up to 1e-07 allowed)\nGreatest relative difference: 0.0017175056273117661 at index (2944, 286) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.23.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 118 / 13762560 (0.0%)\nGreatest absolute difference: 5.753245204687119e-07 at index (1422, 909) (up to 1e-07 allowed)\nGreatest relative difference: 0.00657968083396554 at index (1422, 1229) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.23.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 27 / 13762560 (0.0%)\nGreatest absolute difference: 2.87545844912529e-07 at index (1424, 1763) (up to 1e-07 allowed)\nGreatest relative difference: 0.027026336640119553 at index (1424, 1023) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.23.input_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 1536 (0.1%)\nGreatest absolute difference: 2.8708018362522125e-07 at index (408,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0007475774618797004 at index (553,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.23.post_attention_layernorm.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 1536 (0.1%)\nGreatest absolute difference: 1.435109879821539e-07 at index (609,) (up to 1e-07 allowed)\nGreatest relative difference: 0.0006490443483926356 at index (609,) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.24.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 33 / 2359296 (0.0%)\nGreatest absolute difference: 2.876331564038992e-07 at index (1148, 1073) (up to 1e-07 allowed)\nGreatest relative difference: 0.006288629490882158 at index (1083, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.24.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 191 / 393216 (0.0%)\nGreatest absolute difference: 1.150299794971943e-06 at index (187, 1215) (up to 1e-07 allowed)\nGreatest relative difference: 0.02500070445239544 at index (186, 465) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.24.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 148 / 393216 (0.0%)\nGreatest absolute difference: 5.749461706727743e-07 at index (166, 408) (up to 1e-07 allowed)\nGreatest relative difference: 0.026316531002521515 at index (252, 147) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.24.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 73 / 2359296 (0.0%)\nGreatest absolute difference: 2.8766226023435593e-07 at index (188, 141) (up to 1e-07 allowed)\nGreatest relative difference: 0.00124540354590863 at index (529, 13) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.24.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 19 / 13762560 (0.0%)\nGreatest absolute difference: 2.875749487429857e-07 at index (1831, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.003559415927156806 at index (7930, 553) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.24.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 72 / 13762560 (0.0%)\nGreatest absolute difference: 5.74102159589529e-07 at index (2051, 1200) (up to 1e-07 allowed)\nGreatest relative difference: 0.004443739540874958 at index (3130, 1395) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.24.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 70 / 13762560 (0.0%)\nGreatest absolute difference: 5.744223017245531e-07 at index (856, 684) (up to 1e-07 allowed)\nGreatest relative difference: 0.007245686836540699 at index (1423, 684) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.25.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 47 / 2359296 (0.0%)\nGreatest absolute difference: 1.1489610187709332e-06 at index (314, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.03125068172812462 at index (293, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.25.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 209 / 393216 (0.1%)\nGreatest absolute difference: 5.753245204687119e-07 at index (247, 1360) (up to 1e-07 allowed)\nGreatest relative difference: 0.01754307560622692 at index (122, 796) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.25.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 74 / 393216 (0.0%)\nGreatest absolute difference: 5.752081051468849e-07 at index (167, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.007406701799482107 at index (38, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.25.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 55 / 2359296 (0.0%)\nGreatest absolute difference: 2.877204678952694e-07 at index (188, 874) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009654921013861895 at index (599, 1258) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.25.mlp.gate_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 4 / 13762560 (0.0%)\nGreatest absolute difference: 1.438165782019496e-07 at index (8849, 553) (up to 1e-07 allowed)\nGreatest relative difference: 0.000843222311232239 at index (8675, 713) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.25.mlp.up_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 13 / 13762560 (0.0%)\nGreatest absolute difference: 5.753245204687119e-07 at index (7194, 713) (up to 1e-07 allowed)\nGreatest relative difference: 0.0009706133860163391 at index (602, 1200) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.25.mlp.down_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 7 / 13762560 (0.0%)\nGreatest absolute difference: 1.4380202628672123e-07 at index (644, 7607) (up to 1e-07 allowed)\nGreatest relative difference: 0.0010156359057873487 at index (1155, 4105) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.26.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 6 / 2359296 (0.0%)\nGreatest absolute difference: 2.8766226023435593e-07 at index (1469, 1340) (up to 1e-07 allowed)\nGreatest relative difference: 0.0012555732391774654 at index (439, 1073) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.26.self_attn.k_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 41 / 393216 (0.0%)\nGreatest absolute difference: 1.1485535651445389e-06 at index (255, 1222) (up to 1e-07 allowed)\nGreatest relative difference: 0.001987353665754199 at index (255, 694) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.26.self_attn.v_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 4 / 393216 (0.0%)\nGreatest absolute difference: 1.438165782019496e-07 at index (73, 865) (up to 1e-07 allowed)\nGreatest relative difference: 0.0011883021797984838 at index (108, 1173) (up to 0.0001 allowed)"
+    },
+    {
+      "parameter": "model.layers.26.self_attn.o_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 2 / 2359296 (0.0%)\nGreatest absolute difference: 1.4380202628672123e-07 at index (804, 520) (up to 1e-07 allowed)\nGreatest relative difference: 0.0007931100553832948 at index (804, 520) (up to 0.0001 allowed)"
+    }
+  ],
+  "fp16": true,
+  "actual_full_model": true,
+  "raw_trajectories_replayed": true
+}

@@ -1,0 +1,59 @@
+{
+  "controlled_tool": "dummy search; no real retrieval quality claim",
+  "warmup_steps": 3,
+  "measured_steps": 20,
+  "requested_updates": 24,
+  "logged_step_ids_measured": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "seeds": [
+    1234,
+    1235,
+    1236
+  ],
+  "main_order": [
+    "collocated-1234",
+    "disaggregated-1234",
+    "disaggregated-1235",
+    "collocated-1235",
+    "collocated-1236",
+    "disaggregated-1236"
+  ],
+  "resident_followup_order": [
+    "collocated-resident-1234",
+    "collocated-resident-1235",
+    "collocated-resident-1236"
+  ],
+  "resident_followup_not_interleaved_with_original_baselines": true,
+  "resident_only_configuration_change": "actor.enable_offload True -> False; same collocated placement",
+  "total_gpus": 3,
+  "effective_batch": 24,
+  "seq_length": 1024,
+  "dataset_rows_before_filter": 1024,
+  "dataset_sha256": "59721012c3dadfe06816e29d6527c6b33de4a4f256f5c9c042f7c80c6ec9dfa4",
+  "fp16_compute_fp32_master": true,
+  "torch_deterministic_training_for_performance": false,
+  "per_step_heavy_probe": false,
+  "rollout_seed_extension": "data.seed + 100003 * rollout_rank",
+  "source_commit": "370bdaa76d6873dbbce6389bc6830814a4ef5535",
+  "timing_scope": "Runner time/step; startup/logging/teardown excluded; process wall separately recorded"
+}

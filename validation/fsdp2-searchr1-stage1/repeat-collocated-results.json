@@ -1,0 +1,88 @@
+{
+  "mode": "candidate",
+  "layout": "collocated",
+  "flash_attention_deterministic": "0",
+  "actor_rank": 0,
+  "actor_dp": 2,
+  "initial_full_model_sha256": "b8335fbf18d4e139a64f33ba5ef161f04a73aa5b3b5ac88b1a854ee96781f5ba",
+  "parameters_checked": 1,
+  "parameter_names": [
+    "model.layers.0.self_attn.q_proj.weight"
+  ],
+  "logprob_max_abs_error": 0.0,
+  "max_abs_error": {
+    "gradient": 4.16638795286417e-06,
+    "parameter": 2.5704503059387207e-07
+  },
+  "bitwise_equal": {
+    "gradient": false,
+    "parameter": false
+  },
+  "tolerances_predeclared": {
+    "logprob": {
+      "atol": 2e-05,
+      "rtol": 1e-05
+    },
+    "gradient": {
+      "atol": 1e-07,
+      "rtol": 0.0001
+    },
+    "parameter": {
+      "atol": 1e-08,
+      "rtol": 1e-05
+    },
+    "metric": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  "rollout_metrics": {
+    "total_num_sequence": 16.0,
+    "valid_response_tokens": 1073.0,
+    "prompt_length": 93.0,
+    "response_length": 67.0625,
+    "total_length": 160.0625,
+    "max_prompt_length": 93,
+    "max_response_length": 256,
+    "max_total_length": 349,
+    "reward_scores_traj": 0.1875,
+    "reward_scores_turn": 0.1875,
+    "avg_turns_per_traj": 1.0,
+    "fraction_of_samples_properly_ended": 0.0,
+    "advantages_mean": 0.15457612648259117,
+    "advantages_max": 2.4748666286468506,
+    "advantages_min": -0.5400605201721191
+  },
+  "training_metrics": [
+    {
+      "actor/approx_kl": 2.7510293875820935e-05,
+      "actor/clip_fraction": 0.0,
+      "actor/clipped_ratio": 0.9999805092811584,
+      "actor/dual_cliped_ratio": 0.0,
+      "actor/entropy_loss": 0.0,
+      "actor/final_loss": -0.16839516162872314,
+      "actor/kl_loss": 0.0,
+      "actor/policy_loss": -0.16839516162872314,
+      "actor/policy_loss_abs": 0.8079755902290344,
+      "actor/ratio": 0.9999805092811584,
+      "actor/ratio_abs": 0.0014007135760039091,
+      "actor/grad_norm": 10.620559302938172,
+      "actor/lr": 1e-06
+    }
+  ],
+  "errors": [
+    {
+      "parameter": "model.layers.0.self_attn.q_proj.weight",
+      "kind": "parameter",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 55 / 2359296 (0.0%)\nGreatest absolute difference: 2.5704503059387207e-07 at index (1023, 609) (up to 1e-08 allowed)\nGreatest relative difference: 0.0005735539016313851 at index (1532, 1229) (up to 1e-05 allowed)"
+    },
+    {
+      "parameter": "model.layers.0.self_attn.q_proj.weight",
+      "kind": "gradient",
+      "error": "Tensor-likes are not close!\n\nMismatched elements: 20743 / 2359296 (0.9%)\nGreatest absolute difference: 4.16638795286417e-06 at index (1019, 609) (up to 1e-07 allowed)\nGreatest relative difference: 44.66671371459961 at index (1022, 1482) (up to 0.0001 allowed)"
+    }
+  ],
+  "fp16": true,
+  "actual_full_model": true,
+  "raw_trajectories_replayed": true
+}

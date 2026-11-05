@@ -1,0 +1,224 @@
+[
+  {
+    "run": "collocated-1234",
+    "commit": "370bdaa76d6873dbbce6389bc6830814a4ef5535",
+    "csv_sha256": "6696829d6968eacbf948c29630af5ffe3abca6dca1dca78d0b60ce2f0ab9029e",
+    "sampled_gpu_peak_mib": [
+      44902,
+      44802,
+      44722
+    ],
+    "seed_audit": [
+      {
+        "worker": "RolloutGroup:0",
+        "rank": 0,
+        "random_seed": 1234
+      },
+      {
+        "worker": "RolloutGroup:2",
+        "rank": 2,
+        "random_seed": 201240
+      },
+      {
+        "worker": "RolloutGroup:1",
+        "rank": 1,
+        "random_seed": 101237
+      }
+    ],
+    "process_wall_seconds": 344.0902160294354
+  },
+  {
+    "run": "collocated-1235",
+    "commit": "370bdaa76d6873dbbce6389bc6830814a4ef5535",
+    "csv_sha256": "5cff1baa928cb62ae6c7886b8d37dedf6bceac76f286bc3175b5942bc75f1efa",
+    "sampled_gpu_peak_mib": [
+      44812,
+      44810,
+      45058
+    ],
+    "seed_audit": [
+      {
+        "worker": "RolloutGroup:0",
+        "rank": 0,
+        "random_seed": 1235
+      },
+      {
+        "worker": "RolloutGroup:1",
+        "rank": 1,
+        "random_seed": 101238
+      },
+      {
+        "worker": "RolloutGroup:2",
+        "rank": 2,
+        "random_seed": 201241
+      }
+    ],
+    "process_wall_seconds": 350.85926278680563
+  },
+  {
+    "run": "collocated-1236",
+    "commit": "370bdaa76d6873dbbce6389bc6830814a4ef5535",
+    "csv_sha256": "0084cf652dfc81a29bc0d42883fd8897dc56d510f31f3b1f7191f7b8f9090eb9",
+    "sampled_gpu_peak_mib": [
+      44836,
+      44834,
+      44726
+    ],
+    "seed_audit": [
+      {
+        "worker": "RolloutGroup:0",
+        "rank": 0,
+        "random_seed": 1236
+      },
+      {
+        "worker": "RolloutGroup:1",
+        "rank": 1,
+        "random_seed": 101239
+      },
+      {
+        "worker": "RolloutGroup:2",
+        "rank": 2,
+        "random_seed": 201242
+      }
+    ],
+    "process_wall_seconds": 339.60950016602874
+  },
+  {
+    "run": "collocated-resident-1234",
+    "commit": "370bdaa76d6873dbbce6389bc6830814a4ef5535",
+    "csv_sha256": "6dfa5228a80e65bc3dd4b9fd68063fa4bcdbebc5cbe4d11b4d70bbcfc23dd41d",
+    "sampled_gpu_peak_mib": [
+      50902,
+      50904,
+      50858
+    ],
+    "seed_audit": [
+      {
+        "worker": "RolloutGroup:0",
+        "rank": 0,
+        "random_seed": 1234
+      },
+      {
+        "worker": "RolloutGroup:1",
+        "rank": 1,
+        "random_seed": 101237
+      },
+      {
+        "worker": "RolloutGroup:2",
+        "rank": 2,
+        "random_seed": 201240
+      }
+    ],
+    "process_wall_seconds": 242.58598590642214
+  },
+  {
+    "run": "collocated-resident-1235",
+    "commit": "370bdaa76d6873dbbce6389bc6830814a4ef5535",
+    "csv_sha256": "3fd31ee8a1fd07b70c6326dc0443e2d03551e0f5531c99eec1a58bf5abf93e99",
+    "sampled_gpu_peak_mib": [
+      50922,
+      51222,
+      50876
+    ],
+    "seed_audit": [
+      {
+        "worker": "RolloutGroup:0",
+        "rank": 0,
+        "random_seed": 1235
+      },
+      {
+        "worker": "RolloutGroup:2",
+        "rank": 2,
+        "random_seed": 201241
+      },
+      {
+        "worker": "RolloutGroup:1",
+        "rank": 1,
+        "random_seed": 101238
+      }
+    ],
+    "process_wall_seconds": 252.89206996932626
+  },
+  {
+    "run": "collocated-resident-1236",
+    "commit": "370bdaa76d6873dbbce6389bc6830814a4ef5535",
+    "csv_sha256": "b6d887b67cbf6b13735210a0da1831f4af1c54484761b93c2b8af31f8fc8ad04",
+    "sampled_gpu_peak_mib": [
+      50902,
+      50900,
+      50858
+    ],
+    "seed_audit": [
+      {
+        "worker": "RolloutGroup:0",
+        "rank": 0,
+        "random_seed": 1236
+      },
+      {
+        "worker": "RolloutGroup:1",
+        "rank": 1,
+        "random_seed": 101239
+      },
+      {
+        "worker": "RolloutGroup:2",
+        "rank": 2,
+        "random_seed": 201242
+      }
+    ],
+    "process_wall_seconds": 246.13799308612943
+  },
+  {
+    "run": "disaggregated-1234",
+    "commit": "370bdaa76d6873dbbce6389bc6830814a4ef5535",
+    "csv_sha256": "5fbb4576da5f1fb7110039a79356370d20c238a3b88e4ecec293fe9eb489fcd5",
+    "sampled_gpu_peak_mib": [
+      23164,
+      22492,
+      43698
+    ],
+    "seed_audit": [
+      {
+        "worker": "RolloutGroup:0",
+        "rank": 0,
+        "random_seed": 1234
+      }
+    ],
+    "process_wall_seconds": 226.43175139278173
+  },
+  {
+    "run": "disaggregated-1235",
+    "commit": "370bdaa76d6873dbbce6389bc6830814a4ef5535",
+    "csv_sha256": "083359e0bf3c230217e5bd537e094eeb7e6704b18a95a08bd11158af0bbe7108",
+    "sampled_gpu_peak_mib": [
+      22530,
+      23228,
+      43558
+    ],
+    "seed_audit": [
+      {
+        "worker": "RolloutGroup:0",
+        "rank": 0,
+        "random_seed": 1235
+      }
+    ],
+    "process_wall_seconds": 213.5031650364399
+  },
+  {
+    "run": "disaggregated-1236",
+    "commit": "370bdaa76d6873dbbce6389bc6830814a4ef5535",
+    "csv_sha256": "3286ba035065c47cbde2ba64590adb06c64ee8178572af19ad3f1023e8e410c6",
+    "sampled_gpu_peak_mib": [
+      22426,
+      22404,
+      43572
+    ],
+    "seed_audit": [
+      {
+        "worker": "RolloutGroup:0",
+        "rank": 0,
+        "random_seed": 1236
+      }
+    ],
+    "process_wall_seconds": 217.49196377396584
+  }
+]

@@ -1,0 +1,3 @@
+{"worker": "RolloutGroup:0", "rank": 0, "random_seed": 1234}
+{"worker": "RolloutGroup:1", "rank": 1, "random_seed": 101237}
+{"worker": "RolloutGroup:2", "rank": 2, "random_seed": 201240}

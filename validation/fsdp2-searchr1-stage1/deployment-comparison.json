@@ -1,0 +1,61 @@
+{
+  "evidence_kind": "gpu",
+  "repeats": 3,
+  "scope": "deployment comparison; not per-change attribution",
+  "quality_validation": "pending",
+  "resume_claim_ready": false,
+  "exploratory": false,
+  "metrics": {
+    "step_median_seconds": {
+      "baseline": [
+        11.396436214447021,
+        11.950113773345947,
+        11.778590202331543
+      ],
+      "candidate": [
+        6.679906606674194,
+        6.641450881958008,
+        6.2252936363220215
+      ],
+      "baseline_mean": 11.708380063374838,
+      "candidate_mean": 6.515550374984741,
+      "baseline_stdev": 0.2834374843176327,
+      "candidate_stdev": 0.2521040290142158,
+      "time_reduction_pct": 44.3513932779981
+    },
+    "response_tokens_per_second": {
+      "baseline": [
+        210.76238223185922,
+        206.76990695585607,
+        219.00027296218136
+      ],
+      "candidate": [
+        368.2502654516212,
+        361.0005037454365,
+        377.76441500160695
+      ],
+      "baseline_mean": 212.17752071663222,
+      "candidate_mean": 369.0050613995549,
+      "baseline_stdev": 6.236780087551867,
+      "candidate_stdev": 8.407405535803086,
+      "throughput_change_pct": 73.9133628073491
+    },
+    "effective_train_tokens_per_second": {
+      "baseline": [
+        210.76238180351896,
+        206.76990692363464,
+        219.00027394825702
+      ],
+      "candidate": [
+        368.25026460055903,
+        361.0005027677856,
+        377.7644117129306
+      ],
+      "baseline_mean": 212.17752089180354,
+      "candidate_mean": 369.0050596937584,
+      "baseline_stdev": 6.236780689477209,
+      "candidate_stdev": 8.407404326236296,
+      "throughput_change_pct": 73.91336185982044
+    }
+  }
+}

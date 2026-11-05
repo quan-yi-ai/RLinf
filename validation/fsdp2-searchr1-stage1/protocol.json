@@ -1,0 +1,39 @@
+{
+  "created_shanghai": "2026-11-05T21:05:30.398041+08:00",
+  "objective": "Full Qwen2.5-1.5B FP16 fixed-trajectory comparison of collocated versus disaggregated actors, both DP=2; no SGLang performance probes in comparison",
+  "tolerances": {
+    "logprob": {
+      "atol": 2e-05,
+      "rtol": 1e-05
+    },
+    "gradient": {
+      "atol": 1e-07,
+      "rtol": 0.0001
+    },
+    "parameter": {
+      "atol": 1e-08,
+      "rtol": 1e-05
+    },
+    "metric": {
+      "atol": 1e-06,
+      "rtol": 1e-05
+    }
+  },
+  "checks": [
+    "identical initial full-model SHA256",
+    "same raw per-rank rollout data",
+    "logprob/mask/loss/grad norm",
+    "all named gradients and updated master parameters"
+  ],
+  "baseline_snapshot_path": "/root/autodl-tmp/rlinf-searchr1-single/fixed-replay/baseline",
+  "expected_snapshot_bytes": 12349376512,
+  "deterministic_followup": {
+    "same_layout_repeat_also_failed": true,
+    "torch_deterministic_algorithms": true,
+    "FLASH_ATTENTION_DETERMINISTIC": "1",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "predeclared_tolerances_unchanged": true,
+    "snapshot_path": "/home/rlinf-fsdp-local-lab/implementation-logs/multigpu-followup/deterministic-snapshot",
+    "added_shanghai": "2026-11-05T21:18:57.401419+08:00"
+  }
+}
